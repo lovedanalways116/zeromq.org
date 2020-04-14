@@ -21,7 +21,7 @@ More generally, "zero" refers to the culture of minimalism that permeates the
 project. We add power by removing complexity rather than by exposing new
 functionality.
 
-## The Guide
+## The Guide all
 
 [The guide](http://zguide.zeromq.org/page:all) explains how to use ØMQ, covers basic, intermediate and advanced use with 60+ diagrams and 750 examples in 28 languages.
 
@@ -35,7 +35,7 @@ You will rarely use libzmq directly, however if you want to contribute to the pr
 
 ## Pick your language
 
-{{< languages >}}
+{{< languages >}} all
 
 ## Pick your library
 
@@ -60,4 +60,4 @@ messages.
 Both the `send` and `receive` methods are blocking (by default). For the receive
 it is simple: if there are no messages the method will block. For sending it is
 more complicated and depends on the socket type. For request sockets, if the
-high watermark is reached or no peer is connected the method will block.
+high watermark is reached or no peer is connected the method will block. No blocking
